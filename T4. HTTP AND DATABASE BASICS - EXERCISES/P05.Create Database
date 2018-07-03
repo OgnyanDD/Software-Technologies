@@ -1,0 +1,31 @@
+/* Delimiter changed to ; */
+/* Connecting to 127.0.0.1 via MariaDB (TCP/IP), username root, using password: No ... */
+/* Can't connect to MySQL server on '127.0.0.1' (10061) */
+/* Access is denied */
+/* Connecting to 127.0.0.1 via MariaDB (TCP/IP), username root, using password: No ... */
+SELECT CONNECTION_ID();
+/* Connected. Thread-ID: 2 */
+/* Characterset: utf8mb4 */
+SHOW STATUS;
+SHOW VARIABLES;
+SHOW DATABASES;
+/* Entering session "LocalDB" */
+/* Access is denied */
+SHOW COLLATION;
+SHOW VARIABLES LIKE 'collation_server';
+CREATE DATABASE `softuni` /*!40100 COLLATE 'utf8_general_ci' */;
+SHOW DATABASES;
+/* Entering session "LocalDB" */
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='softuni';
+SHOW TABLE STATUS FROM `softuni`;
+SHOW FUNCTION STATUS WHERE `Db`='softuni';
+SHOW PROCEDURE STATUS WHERE `Db`='softuni';
+SHOW TRIGGERS FROM `softuni`;
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='information_schema';
+SHOW TABLE STATUS FROM `information_schema`;
+SHOW FUNCTION STATUS WHERE `Db`='information_schema';
+SHOW PROCEDURE STATUS WHERE `Db`='information_schema';
+SHOW TRIGGERS FROM `information_schema`;
+SHOW EVENTS FROM `information_schema`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='softuni';
+USE `softuni`;
