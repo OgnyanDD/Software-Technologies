@@ -1,0 +1,63 @@
+<div class="container body-content span=8 offset=2">
+    <div class="well">
+        <form class="form-inline" action="/" method="POST">
+            <fieldset>
+                <div class="form-group">
+                    <div class="col-sm-1">
+                        <input type="text" class="form-control" id="leftOperand" placeholder="Left Operand"
+                               name="calculator[leftOperand]" value="{{calculator.leftOperand}}"
+                               style="font-weight: bolder; text-align: center" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="calculator[operator]"
+                                style="font-size: medium;font-weight: bolder; color: red; text-align-last: center; text-align: center">
+                            <option selected disabled>Select option...</option>
+                            <option value="+"{{selectif calculator.operator '+'}} style="font-weight: bold">
+                                +
+                            </option>
+                            <option value="-"{{selectif calculator.operator '-'}} style="font-weight: bolder">
+                                -
+                            </option>
+                            <option value="*"{{selectif calculator.operator '*'}} style="font-weight: bolder">
+                                *
+                            </option>
+                            <option value="/"{{selectif calculator.operator '/'}} style="font-weight: bolder">
+                                /
+                            </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="rightOperand" placeholder="Right Operand"
+                               name="calculator[rightOperand]" value="{{calculator.rightOperand}}"
+                               style="font-weight: bold; text-align: center" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-2" style="font-weight: bold; font-size: larger">
+                        <p>=</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="result" placeholder="Result" name="result"
+                               value="{{result}}" style="font-weight: bold; color: red; text-align: center" readonly>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <button type="submit" class="btn btn-primary" style="font-weight: bold ">Calculate</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
