@@ -6,7 +6,7 @@ This exercise use bootstrap extensively, so every HTML code will be instantly st
 **I have implemented changes to the functionality of the blog and its design, which differ from its default idea in the task!**
 <br/>
 ## Screen previews of my design in 768px mode:
-![](../resources/MyDesign.png)
+![](/resources/MyDesign.png)
 <br/>
 ## Screen previews of default design in 768px mode:
 ![](../resources/DefaultDesign.png)
