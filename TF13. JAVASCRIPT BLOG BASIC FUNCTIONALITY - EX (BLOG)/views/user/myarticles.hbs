@@ -1,0 +1,26 @@
+<div class="container body-content">
+    <div class="row">
+        {{#each articles}}
+            <div class="col-md-12">
+                <article>
+                    <header class="top-header">
+                        <div class="image"><img class="image" src="{{link}}" alt=""></div>
+                        <h2 class="h2-class"><i class="fa fa-eye"></i> {{this.title}}</h2>
+                        <h4 class="h4-class">{{this.publicationType}}</h4>
+                    </header>
+                    <p class="index">{{this.content}}</p>
+                    <small class="time">
+                        {{this.date}}
+                    </small>
+                    <footer>
+                        <div class="pull-right">
+                            <a class="btn btn-warning btn-xs" href="/article/edit/{{this.id}}">Edit</a>
+                            <a class="btn btn-danger btn-xs" href="/article/delete/{{this.id}}">Delete</a>
+                            <a class="btn btn-info btn-xs" href="/article/myDetails/{{this.id}}">Read more &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        {{/each}}
+    </div>
+</div>

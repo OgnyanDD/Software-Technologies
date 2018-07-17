@@ -1,0 +1,49 @@
+<div class="container body-content span=8 offset=2">
+    <div class="well">
+        <form class="form-horizontal" method="post" action="/user/register">
+            <fieldset>
+                <legend><i class="fa fa fa-pencil"></i> User Details:</legend>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="inputEmail">Email</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="inputEmail" name="email"
+                               required value="{{this.user.email}}" disabled="disabled">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="inputFullName">Full Name</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="inputFullName"
+                               name="fullName" value="{{this.user.fullName}}" disabled="disabled">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="inputGender">Gender</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="gender"
+                               name="fullName" value="{{this.user.gender}}" disabled="disabled">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="inputNationality">Nationality</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="inputNationality"
+                               name="nationality" value="{{this.user.nationality}}" disabled="disabled">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="inputHometown">Hometown</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="inputHometown"
+                               name="hometown" value="{{this.user.hometown}}" disabled="disabled">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <a class="btn btn-default btn-xs" href="/">Back &raquo;</a>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

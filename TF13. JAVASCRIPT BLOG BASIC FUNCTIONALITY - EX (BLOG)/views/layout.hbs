@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Heartbeat of Nature</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script type="text/javascript" src="/javascripts/jquery-3.3.1.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">The <i class="fa fa fa-heartbeat"></i> of nature</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            {{#if user}}
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/user/details"><i class="fa fa fa-user"></i> Welcome({{user.fullName}})</a></li>
+                        <li><a href="/article/create"><i class="fa fa fa-magic"></i> New Article</a></li>
+                        <li><a href="/user/myarticles"><i class="fa fa fa-folder"></i> My Articles</a></li>
+                        <li><a href="/user/logout"><i class="fa fa fa-remove"></i> Logout</a></li>
+                    </ul>
+                </div>
+            {{/if}}
+            {{#unless user}}
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/user/register"><i class="fa fa fa-pencil"></i> Register</a></li>
+                        <li><a href="/user/login"><i class="fa fa fa-user"></i> Login</a></li>
+                    </ul>
+                </div>
+            {{/unless}}
+        </div>
+    </div>
+</header>
+{{{body}}}
+</body>
+<footer>
+    <div class="container modal-footer">
+        <p>&copy; 2018 - Software University Foundation</p>
+        <p style="font-weight: bold">&#8618; Student: Ognyan Dimitrov</p>
+    </div>
+</footer>
+</html>
