@@ -11,9 +11,8 @@ Creating a **Calculator** application with the **Express.js Framework**, from se
 * Added eight new mathematical functions;
 * A new button has been created to reset all fields;
 * etc.
-<br/>
-*To start the app, first download all necessary packages.*<br/>
 
+*To start the app, first download all necessary packages.*
 ## Screen preview of my design:
 ![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF11.%20JAVASCRIPT%20EXPRESSJS%20OVERVIEW%20-%20EX%20(CALCULATOR)/pic's/MyDesign.png)
 <br/>
