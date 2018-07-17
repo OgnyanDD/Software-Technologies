@@ -20,7 +20,7 @@ Creating a **Blog** application with the **Express.js Framework**, from setting 
 *To start the app, first download all necessary packages.*<br/>
 
 ## Screen previews of my design in 768px mode:
-![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF11.%20JAVASCRIPT%20EXPRESSJS%20OVERVIEW%20-%20EX%20(CALCULATOR)/pic's/MyDesign.png)
+![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF13.%20JAVASCRIPT%20BLOG%20BASIC%20FUNCTIONALITY%20-%20EX%20(BLOG)/pic's/MyDesign.png)
 <br/>
 ## Screen previews of default design in 768px mode:
-![Default Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF11.%20JAVASCRIPT%20EXPRESSJS%20OVERVIEW%20-%20EX%20(CALCULATOR)/pic's/DefaultDesign.png)
+![Default Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF13.%20JAVASCRIPT%20BLOG%20BASIC%20FUNCTIONALITY%20-%20EX%20(BLOG)/pic's/DefaultDesign.png)
