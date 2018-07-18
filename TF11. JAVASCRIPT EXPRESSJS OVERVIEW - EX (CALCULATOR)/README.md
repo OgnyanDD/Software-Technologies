@@ -12,7 +12,8 @@ Creating a **Calculator** application with the **Express.js Framework**, from se
 * Created converter controler;
 * Added eight new mathematical functions to calculator;
 * Added twelve converter unit options to converter;
-* A new button has been created to reset all fields in calculator and converter;
+* A new button has been created to reset all fields in calculator;
+* A new button has been created to reset all fields in converter;
 * etc.
 
 *To start the app, first download all necessary packages.*
