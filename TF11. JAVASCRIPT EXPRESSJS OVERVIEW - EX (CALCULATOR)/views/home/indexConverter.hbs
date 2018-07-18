@@ -1,0 +1,76 @@
+<div class="container-small body-content span=8 offset=2">
+    <div class="well">
+        <div class="body-content">
+            <form class="form-inline" action="" method="POST" id="myForm">
+                <fieldset>
+                    <h2>UNIT CONVERTER</h2>
+                    <div class="form-group">
+                        <div class="col-sm-1">
+                            <input type="number" step="any" class="form-control" id="input"
+                                   placeholder="Input Value"
+                                   name="converter[input]" value="{{converter.input}}" required/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <select class="form-control" name="converter[unit]">
+                                <option selected disabled>Select option...</option>
+                                <option value="HEX"{{selectif converter.unit 'HEX'}}>DEC to HEX</option>
+                                <option value="BIN"{{selectif converter.unit 'BIN'}}>DEC to BIN</option>
+                                <option value="inch"{{selectif converter.unit 'inch'}}>cm to inch</option>
+                                <option value="mile"{{selectif converter.unit 'mile'}}>km to mile</option>
+                                <option value="yard"{{selectif converter.unit 'yard'}}>km to yard</option>
+                                <option value="bar"{{selectif converter.unit 'bar'}}>kg/m2 to Bar</option>
+                                <option value="pascal"{{selectif converter.unit 'pascal'}}>kg/m2 to Pa</option>
+                                <option value="kelvin"{{selectif converter.unit 'kelvin'}}>C to K</option>
+                                <option value="fahrenheit"{{selectif converter.unit 'fahrenheit'}}>C to F</option>
+                                <option value="rad"{{selectif converter.unit 'rad'}}>Deg to Rad</option>
+                                <option value="gra"{{selectif converter.unit 'gra'}}>Deg to Gra</option>
+                                <option value="bit"{{selectif converter.unit 'bit'}}>MB to Bit</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="result" placeholder="Result"
+                                   name="result"
+                                   value="{{result}}" onfocus="this.placeholder" readonly/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-3">
+                            <button type="submit" class="btn btn-success">Convert</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <button type="reset" class="btn btn-danger"
+                                    onclick="window.location='http://localhost:8000/home/indexConverter'">Reset
+                            </button>
+                        </div>
+                    </div>
+                    <div class="jumbotron">
+                        <h4><strong><i class="fa fa fa-search"></i> Unit Converter options:</strong></h4>
+                        <div class="info">
+                            <ul>
+                                <li><strong>DEC to HEX</strong> converter;</li>
+                                <li><strong>DEC to BIN</strong> converter;</li>
+                                <li><strong>cm to inch</strong> converter;</li>
+                                <li><strong>km to mile</strong> converter;</li>
+                                <li><strong>km to yard</strong> converter;</li>
+                                <li><strong>kg/m2 to Bar</strong> converter;</li>
+                                <li><strong>kg/m2 to Pa</strong> converter;</li>
+                                <li><strong>C to K</strong> converter;</li>
+                                <li><strong>C to F</strong> converter;</li>
+                                <li><strong>Deg to Rad</strong> converter;</li>
+                                <li><strong>Deg to Gra</strong> converter;</li>
+                                <li><strong>MB to Bit</strong> converter;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,7 +1,10 @@
-const homeController = require('../controllers/home');
+const homeCalculator = require('../controllers/calculator');
+const homeConverter = require('../controllers/converter');
 
 module.exports = (app) => {
-    app.get('/', homeController.indexGet);
-    app.post('/', homeController.indexPost)
-};
+    app.get('/', homeCalculator.indexGet);
+    app.post('/', homeCalculator.indexPost);
 
+    app.get('/home/indexConverter', homeConverter.indexGet);
+    app.post('/home/indexConverter', homeConverter.indexPost);
+};
