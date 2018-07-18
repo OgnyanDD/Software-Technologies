@@ -5,11 +5,14 @@ Creating a **Calculator** application with the **Express.js Framework**, from se
 **I have implemented changes to the functionality of the calculator and its design, which differ from its default idea in the task!**<br/>
 
 **Sumary of my project:**
-* Created calculator view with new design;
+* Created new view with new design;
 * Created calculator model;
 * Created calculator controler;
-* Added eight new mathematical functions;
-* A new button has been created to reset all fields;
+* Created converter model;
+* Created converter controler;
+* Added eight new mathematical functions to calculator;
+* Added twelve converter unit options to converter;
+* A new button has been created to reset all fields in calculator and converter;
 * etc.
 
 *To start the app, first download all necessary packages.*
