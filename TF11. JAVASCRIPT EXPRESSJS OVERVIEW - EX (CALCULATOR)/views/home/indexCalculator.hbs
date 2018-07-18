@@ -34,11 +34,7 @@
                     <script type="text/javascript">
                         function Check(that) {
                             if (that.value == "√" || that.value == "sin" || that.value == "cos" || that.value == "tan" || that.value == "!" || that.value == "ln") {
-                                alert("Disable Right Operand!\nPlease, don't panic! 🙂");
-                                document.getElementById("rightOperand").value = 0;
-                                document.getElementById("rightOperand").style.display = "none";
-                            } else {
-                                document.getElementById("rightOperand").style.display = "block";
+                                document.getElementById("rightOperand").setAttribute('readonly', 'readonly');
                             }
                         }
                     </script>
