@@ -28,6 +28,10 @@ body {
     margin-top: 20px;
 }
 
+.owner {
+    font-weight: bold;
+}
+
 .fa-heartbeat { /*CHANGE - new*/
     color: red;
 }
@@ -3415,6 +3419,10 @@ input[type="search"] {
     margin-top: 10px;
     margin-bottom: 10px;
 
+}
+
+.radio-new {
+    padding-top: 10px;
 }
 
 .radio label,

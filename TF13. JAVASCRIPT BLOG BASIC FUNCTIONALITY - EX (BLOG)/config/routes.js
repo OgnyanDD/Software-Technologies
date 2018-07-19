@@ -1,6 +1,3 @@
-/**
- * Created by >>Ognyan Dimitrov<<
- */
 const userController = require('../controllers').user;
 const homeController = require('../controllers').home;
 const articleController = require('../controllers').article;

@@ -1,6 +1,3 @@
-/**
- * Created by >>Ognyan Dimitrov<<
- */
 const Sequelize = require('sequelize');
 
 module.exports = function (sequelize) {

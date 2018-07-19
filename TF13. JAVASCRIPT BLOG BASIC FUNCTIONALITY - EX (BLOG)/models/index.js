@@ -12,7 +12,6 @@ if (config.use_env_variable) {
 } else {
     sequelize = new Sequelize(
         config.database, config.username, config.password, config
-
     );
 
 }
@@ -41,8 +40,8 @@ async function create(models) {
     console.log('Initializing...');
     await sequelize
         .authenticate()
-        .then(function(err) {
-            console.log('\x1b[32m%s\x1b[0m','Connection has been established successfully.');
+        .then(function (err) {
+            console.log('\x1b[32m%s\x1b[0m', 'Connection has been established successfully.');
         })
         .catch(function (err) {
             console.error('Unable to connect to the database!');
