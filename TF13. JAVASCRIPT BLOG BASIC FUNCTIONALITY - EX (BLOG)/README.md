@@ -13,7 +13,7 @@ Creating a **Blog** application with the **Express.js Framework**, from setting 
 * New functions and improvements:
   - new parameters have been added to register a new user;
   - the users can attache web images to the articles;
-  - the users can get information about their site profiles;
+  - the users can get information about their profiles;
   - the users can edit and delete articles;
   - etc.
   <br/>
