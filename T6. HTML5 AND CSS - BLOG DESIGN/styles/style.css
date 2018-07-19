@@ -1441,7 +1441,7 @@ body {
     font-size: 15px;
     line-height: 1.42857143;
     color: white; /*CHANGE - Font on the page*/
-    background: url("../resources/wallpaper.jpg") no-repeat center center fixed; /*CHANGE - Background with img*/
+    background: url("https://images.pexels.com/photos/1187507/pexels-photo-1187507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center fixed; /*CHANGE - Background with img*/
     background-size: cover; /*CHANGE - Background with img*/
     /*background-color: #ffffff;*/
 }
