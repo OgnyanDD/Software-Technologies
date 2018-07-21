@@ -14,9 +14,13 @@ Creating a **Calculator** application with the **Express.js Framework**, from se
 * Added twelve converter unit options to converter;
 * A new button has been created to reset all fields in calculator;
 * A new button has been created to reset all fields in converter;
-* etc.
+* etc.<br/>
 
-*To start the app, first download all necessary packages.*
+**Follow these steps to run the application:**
+- Install node.js (if you not have it);
+- Open CMD terminal in project folder;
+- Write *"npm install"* to take the dependeces;<br/>
+
 ## Screen previews of my design:
 ![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF11.%20JAVASCRIPT%20EXPRESSJS%20OVERVIEW%20-%20EX%20(CALCULATOR)/pic's/MyDesign.png)
 <br/>
