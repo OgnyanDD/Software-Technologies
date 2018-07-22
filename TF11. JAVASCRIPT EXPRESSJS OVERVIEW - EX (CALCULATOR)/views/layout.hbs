@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title style="font-weight: bold">Calculator</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title style="font-weight: bold">Calculator & Converter</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="/javascripts/jquery-1.10.2.js"></script>
     <script src="/javascripts/bootstrap.js"></script>
 </head>
 <body>
-    <header>
-        <div class="navbar navbar-default navbar-fixed-top text-uppercase">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="/" class="navbar-brand"><i class="fa fa fa-calculator"></i> Calculator</a>
-                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
-                        <!--<span class="icon-bar"></span>-->
-                        <!--<span class="icon-bar"></span>-->
-                        <!--<span class="icon-bar"></span>-->
-                    <!--</button>-->
-                </div>
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand"><i class="fa fa fa-calculator"></i> Calculator</a>
+                <a href="/home/indexConverter" class="navbar-brand"><i class="fa fa fa-retweet"></i> Unit Converter</a>
             </div>
         </div>
-    </header>
-    {{#if error }}
-        <h2>{{error}}</h2>
-    {{/if}}
-    {{{body}}}
+    </div>
+</header>
+{{#if error }}
+    <h2>{{error}}</h2>
+{{/if}}
+{{{body}}}
 </body>
 <footer>
     <div class="container modal-footer">
         <p>&copy; 2018 - Software University Foundation</p>
-        <p style="font-weight: bold">&#8618; Student: Ognyan Dimitrov</p>
+        <p class="owner">&#8618; Student: Ognyan Dimitrov</p>
     </div>
 </footer>
 </html>
