@@ -6,11 +6,11 @@ Creating a **Calculator** application with the **Symfony Framework**.<br/>
 
 **Sumary of my project:**
 * Created new view with new design;
-* Created calculator class File;
+* Created calculator class file;
 * Created calculator fields;
 * Created accessors and mutators (getters and setters);
 * Created a form in-app;
-* Implement calculator Logic;
+* Implement calculator logic;
 * Added eight new mathematical functions to calculator;
 * A new button has been created to reset all fields in calculator;
 * etc.<br/>
