@@ -19,6 +19,8 @@ Creating a **Blog** application with the **Express.js Framework**, from setting 
   
 **Follow these steps to run the application:**
 - Install node.js (if you not have it);
+- Start MySQL server to listen;
+- Create data base with name "blog";
 - Open CMD terminal in project folder;
 - Write *"npm install --save sequelize mysql2 passport"* to take the dependeces;<br/>
 - Initialize Sequelize with the following command:<br/>
