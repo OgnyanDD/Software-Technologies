@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'profile' %}
+
+{% block main %}
+
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-horizontal" method="post" action="/user/register">
+                <fieldset>
+                    <legend><i class="fa fa fa-user"></i> User: <strong>{{ user.fullName }}</strong>
+                    </legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_email">Email:</label>
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="user_email" name="email"
+                                   required value="{{ user.email }}" disabled="disabled">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_fullName">Full Name:</label>
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="user_fullName"
+                                   name="fullName" value="{{ user.fullName }}" disabled="disabled">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_gender">Gender:</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="user_gender"
+                                   name="gender" value="{{ user.gender }}" disabled="disabled">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_nationality">Nationality:</label>
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="user_nationality"
+                                   name="nationality" value="{{ user.nationality }}" disabled="disabled">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_hometown">Hometown:</label>
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="user_hometown"
+                                   name="hometown" value="{{ user.hometown }}" disabled="disabled">
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <div class="pull-right">
+                <a class="btn btn-default btn-default" href="{{ path('blog_index') }}">Back &raquo;</a>
+            </div>
+        </footer>
+    </div>
+
+{% endblock %}

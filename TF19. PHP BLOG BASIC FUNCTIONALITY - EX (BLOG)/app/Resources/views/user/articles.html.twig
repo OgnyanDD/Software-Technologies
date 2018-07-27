@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    <div class="container body-content">
+        <div class="row">
+            {% for article in articles %}
+                <div class="col-md-12">
+                    <article>
+                        <header>
+                            <div class="image">
+                                <img class="image" src="{{ article.link }}" alt="">
+                            </div>
+                            <h2>{{ article.title }}</h2>
+                            <h4>{{ article.publicationType }}</h4>
+                        </header>
+
+                        <p>
+                            {{ article.summary }}
+                        </p>
+
+                        <small class="author">
+                            {{ article.author.fullName }}
+                        </small>
+
+                        <small class="date">
+                            {{ article.dateAdded|date ('d-m-Y') }}
+                        </small>
+
+                        <footer>
+                            <div class="pull-right">
+                                <a class="btn btn-default btn-default"
+                                   href="{{ path('article_view', {'id':article.id}) }}">Read more &raquo;</a>
+                            </div>
+
+                            <div class="pull-right">
+                                <a class="btn btn-default btn-success"
+                                   href="{{ path('article_edit', {'id':article.id}) }}">Edit</a>
+                            </div>
+
+                            <div class="pull-right">
+                                <a class="btn btn-default btn-danger"
+                                   href="{{ path('article_delete', {'id':article.id}) }}">Delete</a>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

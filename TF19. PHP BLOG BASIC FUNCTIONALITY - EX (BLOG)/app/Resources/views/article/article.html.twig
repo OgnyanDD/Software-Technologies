@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                <article>
+                    <header>
+                        <div class="image"><img class="image" src="{{article.link}}" alt=""></div>
+                        <h2><i class="fa fa-star"></i> {{ article.title }}</h2>
+                        <h4>{{ article.publicationType }}</h4>
+                    </header>
+
+                    <p>
+                        {{ article.content }}
+                    </p>
+
+                    <small class="author">
+                        {{ article.author.fullName }}
+                    </small>
+
+                    <small class="date">
+                        {{ article.dateAdded|date ('d-m-Y') }}
+                    </small>
+
+                    <footer>
+                        <div class="pull-right">
+                            <a class="btn btn-default btn-default" href="{{ path('blog_index') }}">Back &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
