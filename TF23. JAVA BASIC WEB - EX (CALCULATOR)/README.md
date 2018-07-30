@@ -1,4 +1,4 @@
-# :triangular_ruler: Exercise: Calculator using PHP and Symfony
+# :triangular_ruler: Exercise: Calculator using Java and Spring
 
 Problem for exercises and homework from the [Software Technologies](https://github.com/OgnyanDD/Software-Technologies) course @ [SoftUni](https://softuni.bg/).<br/>
 Creating a **Calculator** application with the **Spring Framework**.<br/>
