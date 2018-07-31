@@ -1,0 +1,102 @@
+<form class="form-inline" th:action="@{/}" method="POST" xmlns:th="http://www.w3.org/1999/xhtml">
+    <fieldset>
+        <div class="form-group">
+            <div class="col-sm-1 ">
+                <input type="text" class="form-control" id="leftOperand" placeholder="Left Operand"
+                       name="leftOperand" th:value="${leftOperand}" th:required = "required"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label>
+                    <select class="form-control" name="operator" onchange="Check(this)">
+                        <option value="Select option..." th:selected = "selected"
+                                th:disabled = "disabled">Select option...</option>
+                        <option value="+" th:selected="${operator.equals('+')}">+</option>
+                        <option value="-" th:selected="${operator.equals('-')}">-</option>
+                        <option value="*" th:selected="${operator.equals('*')}">*</option>
+                        <option value="/" th:selected="${operator.equals('/')}">/</option>
+                        <option value="^" th:selected="${operator.equals('^')}">^</option>
+                        <option value="mod" th:selected="${operator.equals('mod')}">mod</option>
+                        <option value="√" th:selected="${operator.equals('√')}">√</option>
+                        <option value="sin" th:selected="${operator.equals('sin')}">sin</option>
+                        <option value="cos" th:selected="${operator.equals('cos')}">cos</option>
+                        <option value="tan" th:selected="${operator.equals('tan')}">tan</option>
+                        <option value="!" th:selected="${operator.equals('!')}">!</option>
+                        <option value="ln" th:selected="${operator.equals('ln')}">ln</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            function Check(that) {
+                if (that.value === "√" || that.value === "sin" || that.value === "cos"
+                    || that.value === "tan" || that.value === "!" || that.value === "ln") {
+                    document.getElementById("rightOperand").setAttribute('readonly', 'readonly');
+                }
+            }
+        </script>
+
+        <div class="form-group">
+            <div class="col-sm-4 ">
+                <input type="text" class="form-control" id="rightOperand" placeholder="Right Operand"
+                       name="rightOperand" th:value="${rightOperand}" th:required = "required"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-4 ">
+                <input type="text" class="form-control" id="result" placeholder="Result"
+                       name="result" th:value="${result}" th:readonly= "readonly"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-4">
+                <button type="submit" class="btn btn-success">Calculate</button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-4">
+                <button type="reset" class="btn btn-danger"
+                        onclick="window.location='http://localhost:8000'">Reset
+                </button>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <h4><strong><i class="fa fa fa-search"></i> Calculator functions:</strong></h4>
+            <div class="info">
+                <ul>
+                    <li>'<strong>+</strong>' <i>plus</i> - sum Left and Right Operand;</li>
+                    <li>'<strong>-</strong>' <i>minus</i> - subtracts Left Operand from Right Operand;</li>
+                    <li>'<strong>*</strong>' <i>multiplication</i> - multiplies Left and Right Operand;</li>
+                    <li>'<strong>/</strong>' <i>division</i> - divide Left and Right Operand;</li>
+                    <li>'<strong>^</strong>' <i>power</i> - power Left Operand with Right Operand;</li>
+                    <li>'<strong>mod</strong>' <i>modulo</i> - modulo Left Operand with Right Operand;</li>
+                    <li>'<strong>√</strong>' <i>square root</i> - square root of Left Operand (Right Operand
+                        - readonly);
+                    </li>
+                    <li>'<strong>sin</strong>' <i>sin function</i> - sin function of Left Operand in DEG
+                        (Right Operand - readonly);
+                    </li>
+                    <li>'<strong>cos</strong>' <i>cos function</i> - cos function of Left Operand in DEG
+                        (Right Operand - readonly);
+                    </li>
+                    <li>'<strong>tan</strong>' <i>tan function</i> - tan function of Left Operand in DEG
+                        (Right Operand - readonly);
+                    </li>
+                    <li>'<strong>!</strong>' <i>factorial</i> - factorial of Left Operand (Right Operand -
+                        readonly);
+                    </li>
+                    <li>'<strong>ln</strong>' <i>natural logarithm</i> - natural logarithm of Left Operand
+                        (Right Operand - readonly);
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </fieldset>
+</form>
