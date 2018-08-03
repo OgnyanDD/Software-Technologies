@@ -1,0 +1,63 @@
+<main>
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-horizontal" th:action="@{/register}" method="post">
+                <fieldset>
+                    <legend>Register:</legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_email">Email:</label>
+                        <div class="col-sm-4 ">
+                            <input class="form-control" type="email" id="user_email" placeholder="Email" name="email" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_fullname">Full Name:</label>
+                        <div class="col-sm-4 ">
+                            <input class="form-control" type="text" id="user_fullname" placeholder="Full Name" name="fullName" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_gender">Gender:</label>
+                        <div class="col-sm-4 ">
+                            <label class="radio-new" id="user_gender">
+                                <input type="radio" name="gender" value="Male" required="required"/> Male&nbsp;
+                                <input type="radio" name="gender" value="Female" required="required"/> Female&nbsp;
+                                <input type="radio" name="gender" value="Other" required="required"/> Other
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_nationality">Nationality:</label>
+                        <div class="col-sm-4 ">
+                            <input class="form-control" type="text"  id="user_nationality" placeholder="Nationality" name="nationality" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_hometown">Hometown:</label>
+                        <div class="col-sm-4 ">
+                            <input class="form-control" type="text"  id="user_hometown" placeholder="Hometown" name="hometown" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_password_first">Password:</label>
+                        <div class="col-sm-4">
+                            <input type="password" class="form-control" id="user_password_first" placeholder="Password" name="password" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_password_second">Confirm Password:</label>
+                        <div class="col-sm-4">
+                            <input type="password" class="form-control" id="user_password_second" placeholder="Password" name="confirmPassword" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <a class="btn btn-default" th:href="@{/}">Cancel</a>
+                            <input value="Submit" type="submit" class="btn btn-success"/>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</main>
