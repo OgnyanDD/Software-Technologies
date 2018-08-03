@@ -18,7 +18,7 @@ Creating a **Calculator** application with the **Symfony Framework**.<br/>
 **Follow these steps to run the application:**
 - Install composer (if you not have it);
 - Open CMD terminal in project folder;
-- Write *"composer install"* to take the dependeces;
+- Write *"composer install"* to take the dependecies;
 - Write *"php bin/console server:run"* to start the application;<br/>
 
 ## Screen preview of my design:
