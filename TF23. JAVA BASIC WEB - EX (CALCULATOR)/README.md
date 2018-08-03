@@ -14,8 +14,8 @@ Creating a **Calculator** application with the **Spring Framework**.<br/>
 
 **Follow these steps to run the application:**
 - Install JDK (if you not have it);
-- Configure IDE;
-- Write *"http://localhost:8000/"* in your browser;
+- Import project to take the Maven dependencies;
+- Write *"http://localhost:8000/"* in your browser;<br/>
 
 
 ## Screen preview of my design:
