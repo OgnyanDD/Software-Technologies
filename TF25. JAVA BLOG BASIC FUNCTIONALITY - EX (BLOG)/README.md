@@ -52,7 +52,8 @@ Creating a **Blog** application with the **Spring Framework**, from setting up t
 - Install JDK (if you not have it);
 - Start MySQL server to listen;
 - Create data base with name "java_blog";
-- Import project to take the Maven dependencies;<br/>
+- Import project to take the Maven dependencies;
+- Write *"http://localhost:8080/"* in your browser;<br/>
 
 ## Screen previews of my design in 768px mode:
 ![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF25.%20JAVA%20BLOG%20BASIC%20FUNCTIONALITY%20-%20EX%20(BLOG)/pic's/MyDesign.png)
