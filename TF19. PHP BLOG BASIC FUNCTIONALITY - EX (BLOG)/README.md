@@ -31,7 +31,7 @@ Creating a **Blog** application with the **Symfony Framework**, from setting up 
 - Start MySQL server to listen;
 - Create data base with name "blog";
 - Open CMD terminal in project folder;
-- Write "composer install" to take the dependeces;
+- Write "composer install" to take the dependecies;
 - Write "php doctrine:schema:update --force" to update the database;
 - Write "php bin/console server:run" to start the project;<br/>
 
