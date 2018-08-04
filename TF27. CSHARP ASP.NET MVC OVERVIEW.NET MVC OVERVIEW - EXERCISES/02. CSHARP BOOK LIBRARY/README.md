@@ -1,7 +1,7 @@
 # :triangular_ruler: Exercise: Book Library App using C# and ASP.NET Core
 
 Problem for exercises and homework from the [Software Technologies](https://github.com/OgnyanDD/Software-Technologies) course @ [SoftUni](https://softuni.bg/).<br/>
-Creating a **Book Library** application with the **ASP.NET Core Framework**.
+Creating a **Book Library** application with the **ASP.NET Core Framework**.<br/>
 These application need to store data in a database to work properly!<br/>
 
 **Sumary of my project:**
