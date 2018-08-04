@@ -1,7 +1,7 @@
-# :triangular_ruler: Exercise: Calculator using Java and Spring
+# :triangular_ruler: Exercise: Calculator using C# and ASP.NET Core
 
 Problem for exercises and homework from the [Software Technologies](https://github.com/OgnyanDD/Software-Technologies) course @ [SoftUni](https://softuni.bg/).<br/>
-Creating a **Calculator** application with the **Spring Framework**.<br/>
+Creating a **Calculator** application with the **ASP.NET Core Framework**.<br/>
 **I have implemented changes to the functionality of the calculator and its design, which differ from its default idea in the task!**<br/>
 
 **Sumary of my project:**
@@ -13,13 +13,11 @@ Creating a **Calculator** application with the **Spring Framework**.<br/>
 * etc.<br/>
 
 **Follow these steps to run the application:**
-- Install JDK (if you not have it);
-- Import project to take the Maven dependencies;
-- Write *"http://localhost:8000/"* in your browser;<br/>
-
+- Start *CalculatorApp.sln* and run the project;
+- Recommended browser - IE;<br/>
 
 ## Screen preview of my design:
-![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF23.%20JAVA%20BASIC%20WEB%20-%20EX%20(CALCULATOR)/pic's/MyDesign.png)
+![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF27.%20CSHARP%20ASP.NET%20MVC%20OVERVIEW.NET%20MVC%20OVERVIEW%20-%20EXERCISES/01.%20CSHARP%20CALCULATOR/pic's/MyDesign.png)
 <br/>
 ## Screen preview of default design:
-![Default Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF23.%20JAVA%20BASIC%20WEB%20-%20EX%20(CALCULATOR)/pic's/DefaultDesign.png)
+![Default Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF27.%20CSHARP%20ASP.NET%20MVC%20OVERVIEW.NET%20MVC%20OVERVIEW%20-%20EXERCISES/01.%20CSHARP%20CALCULATOR/pic's/DefaultDesign.png)
