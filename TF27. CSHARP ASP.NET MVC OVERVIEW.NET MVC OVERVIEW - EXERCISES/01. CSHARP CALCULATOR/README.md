@@ -13,6 +13,7 @@ Creating a **Calculator** application with the **ASP.NET Core Framework**.<br/>
 * etc.<br/>
 
 **Follow these steps to run the application:**
+- Install ASP.NET and web development (if you not have it);
 - Start *CalculatorApp.sln* and run the project;
 - Recommended browser - IE;<br/>
 
