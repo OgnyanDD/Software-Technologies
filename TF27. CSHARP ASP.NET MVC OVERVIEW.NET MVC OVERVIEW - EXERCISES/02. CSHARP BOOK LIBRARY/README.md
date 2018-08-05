@@ -14,6 +14,12 @@ These application need to store data in a database to work properly!<br/>
 * Created new view with new design;
 * etc.<br/>
 
+**Follow these steps to run the application:**
+
+* Install ASP.NET and web development (if you not have it);
+* Start *BookLibrary.sln* and run the project;
+* Recommended browser - IE;
+
 ## Screen preview of my design:
 ![My Design](https://github.com/OgnyanDD/Software-Technologies/blob/master/TF27.%20CSHARP%20ASP.NET%20MVC%20OVERVIEW.NET%20MVC%20OVERVIEW%20-%20EXERCISES/02.%20CSHARP%20BOOK%20LIBRARY/pic's/MyDesign.png)
 <br/>
