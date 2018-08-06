@@ -1,0 +1,11 @@
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\bin\Debug\netcoreapp2.0\ProjectRider.deps.json
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\bin\Debug\netcoreapp2.0\ProjectRider.runtimeconfig.json
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\bin\Debug\netcoreapp2.0\ProjectRider.runtimeconfig.dev.json
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\bin\Debug\netcoreapp2.0\ProjectRider.dll
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\bin\Debug\netcoreapp2.0\ProjectRider.pdb
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\obj\Debug\netcoreapp2.0\ProjectRider.csprojAssemblyReference.cache
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\obj\Debug\netcoreapp2.0\ProjectRider.csproj.CoreCompileInputs.cache
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\obj\Debug\netcoreapp2.0\ProjectRider.AssemblyInfoInputs.cache
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\obj\Debug\netcoreapp2.0\ProjectRider.AssemblyInfo.cs
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\obj\Debug\netcoreapp2.0\ProjectRider.dll
+E:\Programming Courses\SoftUni\Software Technologies\Exam Prep I (03.2018)\Skeletons\C#\ProjectRider\obj\Debug\netcoreapp2.0\ProjectRider.pdb
