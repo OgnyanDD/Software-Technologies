@@ -1,4 +1,4 @@
-# :zap: Exam: Project Rider
+# :zap: Exam: IMDB
 
 Exam from the [Software Technologies](https://github.com/OgnyanDD/Software-Technologies) course @ [SoftUni](https://softuni.bg/).<br/>
 
