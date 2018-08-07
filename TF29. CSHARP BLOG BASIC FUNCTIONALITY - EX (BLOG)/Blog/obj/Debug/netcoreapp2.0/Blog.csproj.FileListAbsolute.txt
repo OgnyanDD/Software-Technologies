@@ -1,0 +1,36 @@
+E:\New folder\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.deps.json
+E:\New folder\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.runtimeconfig.json
+E:\New folder\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.runtimeconfig.dev.json
+E:\New folder\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.dll
+E:\New folder\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.csprojAssemblyReference.cache
+E:\New folder\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.csproj.CoreCompileInputs.cache
+E:\New folder\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.AssemblyInfoInputs.cache
+E:\New folder\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.AssemblyInfo.cs
+E:\New folder\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.pdb
+E:\New folder\Blog\Blog\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\New folder\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.dll
+E:\New folder\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.pdb
+E:\SoftUni C# Blog\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.deps.json
+E:\SoftUni C# Blog\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.runtimeconfig.json
+E:\SoftUni C# Blog\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.runtimeconfig.dev.json
+E:\SoftUni C# Blog\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.dll
+E:\SoftUni C# Blog\Blog\Blog\bin\Debug\netcoreapp2.0\Blog.pdb
+E:\SoftUni C# Blog\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.csprojAssemblyReference.cache
+E:\SoftUni C# Blog\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.csproj.CoreCompileInputs.cache
+E:\SoftUni C# Blog\Blog\Blog\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\SoftUni C# Blog\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.AssemblyInfoInputs.cache
+E:\SoftUni C# Blog\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.AssemblyInfo.cs
+E:\SoftUni C# Blog\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.dll
+E:\SoftUni C# Blog\Blog\Blog\obj\Debug\netcoreapp2.0\Blog.pdb
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\bin\Debug\netcoreapp2.0\Blog.deps.json
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\bin\Debug\netcoreapp2.0\Blog.runtimeconfig.json
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\bin\Debug\netcoreapp2.0\Blog.runtimeconfig.dev.json
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\bin\Debug\netcoreapp2.0\Blog.dll
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\bin\Debug\netcoreapp2.0\Blog.pdb
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\obj\Debug\netcoreapp2.0\Blog.csprojAssemblyReference.cache
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\obj\Debug\netcoreapp2.0\Blog.csproj.CoreCompileInputs.cache
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\obj\Debug\netcoreapp2.0\Blog.AssemblyInfoInputs.cache
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\obj\Debug\netcoreapp2.0\Blog.AssemblyInfo.cs
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\obj\Debug\netcoreapp2.0\Blog.dll
+E:\Programming Courses\SoftUni\Software Technologies\PROJECTS\SoftUni Blog C#\Blog\obj\Debug\netcoreapp2.0\Blog.pdb
